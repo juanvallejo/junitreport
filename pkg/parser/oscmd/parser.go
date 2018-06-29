@@ -1,9 +1,9 @@
 package oscmd
 
 import (
-	"github.com/openshift/junitreport/pkg/builder"
-	"github.com/openshift/junitreport/pkg/parser"
-	"github.com/openshift/junitreport/pkg/parser/stack"
+	"github.com/juanvallejo/junitreport/pkg/builder"
+	"github.com/juanvallejo/junitreport/pkg/parser"
+	"github.com/juanvallejo/junitreport/pkg/parser/stack"
 )
 
 // NewParser returns a new parser that's capable of parsing `os::cmd` test output

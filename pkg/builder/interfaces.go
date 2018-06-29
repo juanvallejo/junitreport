@@ -1,6 +1,6 @@
 package builder
 
-import "github.com/openshift/junitreport/pkg/api"
+import "github.com/juanvallejo/junitreport/pkg/api"
 
 // TestSuitesBuilder knows how to aggregate data to form a collection of test suites.
 type TestSuitesBuilder interface {

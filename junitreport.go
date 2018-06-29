@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/openshift/junitreport/pkg/cmd"
+	"github.com/juanvallejo/junitreport/pkg/cmd"
 )
 
 var (

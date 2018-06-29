@@ -3,7 +3,7 @@ package gotest
 import (
 	"regexp"
 
-	"github.com/openshift/junitreport/pkg/api"
+	"github.com/juanvallejo/junitreport/pkg/api"
 )
 
 // testStartPattern matches the line in verbose `go test` output that marks the declaration of a test.

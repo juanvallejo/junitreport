@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/openshift/junitreport/pkg/builder"
-	"github.com/openshift/junitreport/pkg/builder/flat"
-	"github.com/openshift/junitreport/pkg/builder/nested"
-	"github.com/openshift/junitreport/pkg/parser"
-	"github.com/openshift/junitreport/pkg/parser/gotest"
-	"github.com/openshift/junitreport/pkg/parser/oscmd"
+	"github.com/juanvallejo/junitreport/pkg/builder"
+	"github.com/juanvallejo/junitreport/pkg/builder/flat"
+	"github.com/juanvallejo/junitreport/pkg/builder/nested"
+	"github.com/juanvallejo/junitreport/pkg/parser"
+	"github.com/juanvallejo/junitreport/pkg/parser/gotest"
+	"github.com/juanvallejo/junitreport/pkg/parser/oscmd"
 )
 
 type testSuitesBuilderType string
